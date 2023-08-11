@@ -5,9 +5,32 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(8, 31, 215);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.current-conditions {
+  font-family: 'star3000-extended', sans-serif;
+}
+
+.current-conditions-date {
+  font-family: 'star3000-extended', sans-serif;
+  min-width: 49%;
+  width: 49%;
+  text-align: start;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.current-conditions-time {
+  font-family: 'star3000-extended', sans-serif;
+  min-width: 49%;
+  width: 49%;
+  text-align: end;
+  vertical-align: top;
+  display: inline-block;
 }
